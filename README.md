@@ -1,7 +1,6 @@
 # yoga_1
 yogaSite
 
-
 gmail
 	fname anand
 	lname yoga	
