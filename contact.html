@@ -1,218 +1,308 @@
-	<!DOCTYPE html>
-	<html lang="zxx" class="no-js">
-	<head>
-		<!-- Mobile Specific Meta -->
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<!-- Favicon-->
-		<link rel="shortcut icon" href="img/fav.png">
-		<!-- Author Meta -->
-		<meta name="author" content="colorlib">
-		<!-- Meta Description -->
-		<meta name="description" content="">
-		<!-- Meta Keyword -->
-		<meta name="keywords" content="">
-		<!-- meta character set -->
-		<meta charset="UTF-8">
-		<!-- Site Title -->
-		<title>Personal</title>
+<!doctype html>
+<html lang="en">
 
-		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
-			<!--
-			CSS
-			============================================= -->
-			<link rel="stylesheet" href="css/linearicons.css">
-			<link rel="stylesheet" href="css/font-awesome.min.css">
-			<link rel="stylesheet" href="css/bootstrap.css">
-			<link rel="stylesheet" href="css/magnific-popup.css">			
-			<link rel="stylesheet" href="css/nice-select.css">							
-			<link rel="stylesheet" href="css/animate.min.css">
-			<link rel="stylesheet" href="css/owl.carousel.css">			
-			<link rel="stylesheet" href="css/jquery-ui.css">			
-			<link rel="stylesheet" href="css/main.css">
-		</head>
-		<body>	
-		  <header id="header">
-		    <div class="container main-menu">
-		    	<div class="row align-items-center justify-content-between d-flex">
-			      <div id="logo">
-			        <a href="index.html"><img src="img/logo.png" alt="" title="" /></a>
-			      </div>
-			      <nav id="nav-menu-container">
-			        <ul class="nav-menu">
-			          <li><a href="index.html">Home</a></li>
-			          <li><a href="about.html">About</a></li>
-			          <li><a href="services.html">Services</a></li>
-			          <li><a href="portfolio.html">Portfolio</a></li>
-			          <li><a href="price.html">Pricing</a></li>
-			          <li class="menu-has-children"><a href="">Blog</a>
-			            <ul>
-			              <li><a href="blog-home.html">Blog Home</a></li>
-			              <li><a href="blog-single.html">Blog Single</a></li>
-			            </ul>
-			          </li>	
-			          <li class="menu-has-children"><a href="">Pages</a>
-			            <ul>
-		            	  <li><a href="elements.html">Elements</a></li>
-				          <li class="menu-has-children"><a href="">Level 2 </a>
-				            <ul>
-				              <li><a href="#">Item One</a></li>
-				              <li><a href="#">Item Two</a></li>
-				            </ul>
-				          </li>					                		
-			            </ul>
-			          </li>					          					          		          
-			          <li><a href="contact.html">Contact</a></li>
-			        </ul>
-			      </nav><!-- #nav-menu-container -->		    		
-		    	</div>
-		    </div>
-		  </header><!-- #header -->
-	  
-			<!-- start banner Area -->
-			<section class="relative about-banner">	
-				<div class="overlay overlay-bg"></div>
-				<div class="container">				
-					<div class="row d-flex align-items-center justify-content-center">
-						<div class="about-content col-lg-12">
-							<h1 class="text-white">
-								Contact Us				
-							</h1>	
-							<p class="text-white link-nav"><a href="index.html">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="contact.html"> Contact Us</a></p>
-						</div>	
-					</div>
-				</div>
-			</section>
-			<!-- End banner Area -->				  
+<head>
+  <title>YogaFun &mdash; Website Template by Colorlib</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-			<!-- Start contact-page Area -->
-			<section class="contact-page-area section-gap">
-				<div class="container">
-					<div class="row">
-						<div class="map-wrap" style="width:100%; height: 445px;" id="map"></div>
-						<div class="col-lg-4 d-flex flex-column address-wrap">
-							<div class="single-contact-address d-flex flex-row">
-								<div class="icon">
-									<span class="lnr lnr-home"></span>
-								</div>
-								<div class="contact-details">
-									<h5>Binghamton, New York</h5>
-									<p>
-										4343 Hinkle Deegan Lake Road
-									</p>
-								</div>
-							</div>
-							<div class="single-contact-address d-flex flex-row">
-								<div class="icon">
-									<span class="lnr lnr-phone-handset"></span>
-								</div>
-								<div class="contact-details">
-									<h5>00 (958) 9865 562</h5>
-									<p>Mon to Fri 9am to 6 pm</p>
-								</div>
-							</div>
-							<div class="single-contact-address d-flex flex-row">
-								<div class="icon">
-									<span class="lnr lnr-envelope"></span>
-								</div>
-								<div class="contact-details">
-									<h5>support@colorlib.com</h5>
-									<p>Send us your query anytime!</p>
-								</div>
-							</div>														
-						</div>
-						<div class="col-lg-8">
-							<form class="form-area contact-form text-right" id="myForm" action="mail.php" method="post">
-								<div class="row">	
-									<div class="col-lg-6 form-group">
-										<input name="name" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" class="common-input mb-20 form-control" required="" type="text">
-									
-										<input name="email" placeholder="Enter email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mb-20 form-control" required="" type="email">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Oxygen:400,700" rel="stylesheet">
 
-										<input name="subject" placeholder="Enter subject" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter subject'" class="common-input mb-20 form-control" required="" type="text">
-									</div>
-									<div class="col-lg-6 form-group">
-										<textarea class="common-textarea form-control" name="message" placeholder="Enter Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Messege'" required=""></textarea>				
-									</div>
-									<div class="col-lg-12">
-										<div class="alert-msg" style="text-align: left;"></div>
-										<button class="genric-btn primary" style="float: right;">Send Message</button>											
-									</div>
-								</div>
-							</form>	
-						</div>
-					</div>
-				</div>	
-			</section>
-			<!-- End contact-page Area -->
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
 
-            <!-- start footer Area -->
-            <footer class="footer-area section-gap">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-5 col-md-6 col-sm-6">
-                            <div class="single-footer-widget">
-                                <h4>About Me</h4>
-                                <p>
-                                    We have tested a number of registry fix and clean utilities and present our top 3 list on our site for your convenience.
-                                </p>
-                                <p class="footer-text"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-                            </div>
-                        </div>
-                        <div class="col-lg-5 col-md-6 col-sm-6">
-                            <div class="single-footer-widget">
-                                <h4>Newsletter</h4>
-                                <p>Stay updated with our latest trends</p>
-								<div class="" id="mc_embed_signup">
-									 <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get">
-									  <div class="input-group">
-									    <input type="text" class="form-control" name="EMAIL" placeholder="Enter Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email Address '" required="" type="email">
-									    <div class="input-group-btn">
-									      <button class="btn btn-default" type="submit">
-									        <span class="lnr lnr-arrow-right"></span>
-									      </button>    
-									    </div>
-									    	<div class="info"></div>  
-									  </div>
-									</form> 
-								</div>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-md-6 col-sm-6 social-widget">
-                            <div class="single-footer-widget">
-                                <h4>Follow Me</h4>
-                                <p>Let us be social</p>
-                                <div class="footer-social d-flex align-items-center">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-dribbble"></i></a>
-                                    <a href="#"><i class="fa fa-behance"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </footer>
-            <!-- End footer Area -->		
+  <link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
+  <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
 
-			<script src="js/vendor/jquery-2.2.4.min.js"></script>
-			<script src="js/popper.min.js"></script>
-			<script src="js/vendor/bootstrap.min.js"></script>			
-			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>			
-  			<script src="js/easing.min.js"></script>			
-			<script src="js/hoverIntent.js"></script>
-			<script src="js/superfish.min.js"></script>	
-			<script src="js/jquery.ajaxchimp.min.js"></script>
-			<script src="js/jquery.magnific-popup.min.js"></script>	
-    		<script src="js/jquery.tabs.min.js"></script>						
-			<script src="js/jquery.nice-select.min.js"></script>	
-            <script src="js/isotope.pkgd.min.js"></script>			
-			<script src="js/waypoints.min.js"></script>
-			<script src="js/jquery.counterup.min.js"></script>
-			<script src="js/simple-skillbar.js"></script>							
-			<script src="js/owl.carousel.min.js"></script>							
-			<script src="js/mail-script.js"></script>	
-			<script src="js/main.js"></script>	
-		</body>
-	</html>
+  <!-- Theme Style -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <header role="banner">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand " href="index.html">YogaFun</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05"
+          aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample05">
+          <ul class="navbar-nav pl-md-5 ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="classes.html" id="dropdown04" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">Classes</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown04">
+                <a class="dropdown-item" href="classes.html">Health Mind Meditation</a>
+                <a class="dropdown-item" href="classes.html">Mind Balance Yoga</a>
+                <a class="dropdown-item" href="classes.html">Body Strength Pilates</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="contact.html">Contact</a>
+            </li>
+          </ul>
+
+          <div class="navbar-nav ml-auto">
+            <form method="post" class="search-form">
+              <span class="icon ion ion-search"></span>
+              <input type="text" class="form-control" placeholder="Search...">
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- END header -->
+
+  <div class="top-shadow"></div>
+
+  <div class="inner-page">
+    <div class="slider-item" style="background-image: url('images/hero_1.jpg');">
+      <div class="container">
+        <div class="row slider-text align-items-center justify-content-center">
+          <div class="col-lg-9 text-center col-sm-12 element-animate">
+            <h1 class="mb-4"><span>Contact Us</span></h1>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 mb-5 order-2">
+          <form action="#" method="post">
+            <div class="row">
+              <div class="col-md-6 form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" class="form-control ">
+              </div>
+              <div class="col-md-6 form-group">
+                <label for="phone">Phone</label>
+                <input type="text" id="phone" class="form-control ">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 form-group">
+  
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" class="form-control ">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 form-group">
+                <label for="message">Write Message</label>
+                <textarea name="message" id="message" class="form-control " cols="30" rows="8"></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 form-group">
+                <input type="submit" value="Send Message" class="btn btn-primary px-3 py-3">
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-6 order-2 mb-5">
+          <div class="row justify-content-right">
+            <div class="col-md-8 mx-auto contact-form-contact-info">
+              <p class="d-flex">
+                <span class="ion-ios-location icon mr-5"></span>
+                <span>34 Street Name, City Name Here, United States</span>
+              </p>
+  
+              <p class="d-flex">
+                <span class="ion-ios-telephone icon mr-5"></span>
+                <span>+1 242 4942 290</span>
+              </p>
+  
+              <p class="d-flex">
+                <span class="ion-android-mail icon mr-5"></span>
+                <span>info@yourdomain.com</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section bg-light block-11">
+    <div class="container">
+      <div class="row justify-content-center mb-5">
+        <div class="col-md-8 text-center">
+          <h2 class=" heading mb-4">Testimonial</h2>
+        </div>
+      </div>
+      <div class="nonloop-block-11 owl-carousel">
+        <div class="item">
+          <div class="block-33 h-100">
+            <div class="vcard d-flex mb-3">
+              <div class="image align-self-center"><img src="images/person_1.jpg" alt="Person here"></div>
+              <div class="name-text align-self-center">
+                <h2 class="heading">John Smith</h2>
+                <span class="meta">XYZ Inc. Client</span>
+              </div>
+            </div>
+            <div class="text">
+              <blockquote>
+                <p>&rdquo; Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat qui, ipsum debitis id
+                  reprehenderit ut soluta possimus consectetur asperiores totam veniam quasi molestiae. Animi doloribus
+                  accusamus eius ex laudantium vitae? &ldquo;</p>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+  
+        <div class="item">
+          <div class="block-33 h-100">
+            <div class="vcard d-flex mb-3">
+              <div class="image align-self-center"><img src="images/person_2.jpg" alt="Person here"></div>
+              <div class="name-text align-self-center">
+                <h2 class="heading">Joshua Darren</h2>
+                <span class="meta">XYZ Inc. Client</span>
+              </div>
+            </div>
+            <div class="text">
+              <blockquote>
+                <p>&rdquo; Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, ut enim error molestias maxime
+                  deserunt voluptate doloribus nihil nesciunt id perferendis, doloremque earum architecto ab incidunt sunt
+                  corrupti. Consequuntur qui ullam voluptates sapiente quod esse eum. &ldquo;</p>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+  
+        <div class="item">
+          <div class="block-33 h-100">
+            <div class="vcard d-flex mb-3">
+              <div class="image align-self-center"><img src="images/person_3.jpg" alt="Person here"></div>
+              <div class="name-text align-self-center">
+                <h2 class="heading">John Smith</h2>
+                <span class="meta">XYZ Inc. Client</span>
+              </div>
+            </div>
+            <div class="text">
+              <blockquote>
+                <p>&rdquo; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, ab? Asperiores dolore
+                  blanditiis quis sapiente soluta aliquid officiis. &ldquo;</p>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+  
+        <div class="item">
+          <div class="block-33 h-100">
+            <div class="vcard d-flex mb-3">
+              <div class="image align-self-center"><img src="images/person_1.jpg" alt="Person here"></div>
+              <div class="name-text align-self-center">
+                <h2 class="heading">John Smith</h2>
+                <span class="meta">XYZ Inc. Client</span>
+              </div>
+            </div>
+            <div class="text">
+              <blockquote>
+                <p>&rdquo; Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, accusamus? Porro fugit culpa
+                  consequuntur dolorum. &ldquo;</p>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+  <!-- END .block-4 -->
+  </div>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-md-4 mb-5">
+          <h3>About The YogaFun</h3>
+          <p class="mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias nihil numquam aspernatur
+            inventore sint eligendi nostrum!</p>
+          <ul class="list-unstyled footer-link d-flex footer-social">
+            <li><a href="#" class="p-2"><span class="fa fa-twitter"></span></a></li>
+            <li><a href="#" class="p-2"><span class="fa fa-facebook"></span></a></li>
+            <li><a href="#" class="p-2"><span class="fa fa-linkedin"></span></a></li>
+            <li><a href="#" class="p-2"><span class="fa fa-instagram"></span></a></li>
+          </ul>
+
+        </div>
+        <div class="col-md-5 mb-5 pl-md-5">
+          <h3>Contact Info</h3>
+          <ul class="list-unstyled footer-link">
+            <li class="d-block">
+              <span class="d-block">Address:</span>
+              <span>34 Street Name, City Name Here, United States</span></li>
+            <li class="d-block"><span class="d-block">Telephone:</span><span>+1 242 4942 290</span></li>
+            <li class="d-block"><span class="d-block">Email:</span><span>info@yourdomain.com</span></li>
+          </ul>
+        </div>
+        <div class="col-md-3 mb-5">
+          <h3>Quick Links</h3>
+          <ul class="list-unstyled footer-link">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Disclaimers</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 text-md-center text-left">
+          <p>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;
+            <script>document.write(new Date().getFullYear());</script> All Rights Reserved | This template is made with
+            <i class="fa fa-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com"
+              target="_blank">Colorlib</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- END footer -->
+
+  <!-- loader -->
+  <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+      <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+      <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+        stroke="#f4b214" /></svg></div>
+
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
