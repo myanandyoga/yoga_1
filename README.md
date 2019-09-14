@@ -10,3 +10,8 @@ github
 	username myanandyoga
 	emal myanandyoga@gmail.com
 	pwd anandyogadelhi10 
+
+GoDady 
+	username myanandyoga@gmail.com
+	emal myanandyoga@gmail.com
+	pwd anandyogadelhi10 
